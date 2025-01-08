@@ -10,9 +10,9 @@ identity_token "azurerm" {
 deployment "dev" {
     inputs = {
         identity_token = identity_token.azurerm.jwt
-        client_id = "5d33fef5-156b-469d-9454-56fe7e8a2426"
-        subscription_id = "4d8e572a-3214-40e9-a26f-8f71ecd24e0d"
-        tenant_id = "f06624a8-558d-45ab-8a87-a88094a3995d"
+        client_id = "4842def2-c850-4aa4-96fe-1246c62e8d34"
+        subscription_id = "00d4c5f4-b702-4504-92a5-de3f5fdb08e5"
+        tenant_id = "0212b37b-2d80-40e7-9c42-aa978d1e385b"
 
         location = local.location
         prefix = "tfstack"
